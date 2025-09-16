@@ -4,7 +4,7 @@ import { useCallback, useRef, useState } from "react";
 import usePosts from "@/hooks/usePosts";
 import Navbar from "@/components/Navbar";
 
-const page = () => {
+const InfiniteScrollPage = () => {
   const [page, setPage] = useState(1);
   const { posts, hasMore, loading, error } = usePosts(page);
 
@@ -68,4 +68,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default InfiniteScrollPage;
