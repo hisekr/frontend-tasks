@@ -4,6 +4,7 @@ import Link from "next/link";
 const routes = [
   { path: "/react/counter", label: "Counter" },
   { path: "/react/guess-number", label: "Guess the number" },
+  { path: "/react/infinite-scroll", label: "Infinte Scroll" },
 ];
 
 const Homepage = () => {
