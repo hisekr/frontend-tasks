@@ -28,7 +28,7 @@ const InfiniteScrollPage = () => {
   return (
     <>
       <div className="flex flex-col min-h-screen">
-        <Navbar name="Infinite Scroll" codeLink="/react/infinte-scroll" />
+        <Navbar name="Infinite Scroll" codeLink="/react/infinite-scroll" />
         <main className="bg-gray-100 p-8 flex flex-col items-center">
           <h1 className="text-2xl font-bold mb-6">
             Infinite Scroll (DummyJSON)
